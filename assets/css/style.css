@@ -1,0 +1,209 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightslategray;
+}
+
+header {
+    padding: 10px 0;
+    background-color: darkslategray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 9999;
+}
+
+.header h1 {
+    color: black;
+    font-size: 50px;
+    padding: 15px 15px 15px 100px;
+    margin: 0px;
+    background-color: purple;
+
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header nav {
+    margin: 25px 0;
+}
+
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header nav ul li a {
+    color: black;
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    
+}
+
+
+.bottomHeader{
+    background-image: url("../images/tech.jpg");
+    background-size: cover;
+    display: flex;
+    background-position: 100%;
+    background-attachment: fixed;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 300px;
+    position: relative;
+}
+
+.blue{
+    background-image: url("../images/blueberries.jpg");
+    background-size: cover;
+    background-image: 100%;
+    position: absolute;
+    left: 150px;
+    bottom: 50px;
+    height: 200px;
+    width: 200px;
+}
+
+.subtitle h2{
+    font-size: 30px;
+    background-color: blue;
+    position: absolute;
+    bottom: 40px;
+}
+
+.section{
+    display: flex;
+    padding: 25px
+}
+
+.section h2{
+    font-size: 45px;
+    align-items: flex-start;
+}
+
+.topic{
+    flex: 5%;
+    border-right: 2px solid blue;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.content{
+    flex: 50%;
+    border-right: none;
+    padding-left: 10px;
+}
+
+#work-well{
+    background-size: cover;
+    display: flex;
+    background-position: 100%;
+    background-attachment: fixed;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 600px;
+    width: 450px;
+    position: relative;
+}
+
+.aboutMe{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+}
+
+.content-title{
+    font-size: 30px;
+    width: 100px;
+    margin-left: 120px;
+}
+
+
+
+
+.images{
+    background-image: url("../images/seo_image_changed.png");
+    background-size: cover;
+    background-image: 100%;
+    position: absolute;
+    left: 150px;
+    bottom: 40%;
+    height: 350px;
+    width: 500px;
+    text-align-last:left ;
+    font-size: 30px;
+}
+
+.images_two{
+    background-image: url("../images/bear.jpg");
+    background-size: cover;
+    background-image: 100%;
+    position: absolute;
+    left: 150px;
+    top: 66%;
+    height: 200px;
+    width: 200px;
+    text-align-last:left ;
+    font-size: 30px;
+}
+
+.images_three{
+    background-image: url("../images/runner.png");
+    background-size: cover;
+    background-image: 100%;
+    position: absolute;
+    left: 450px;
+    top: 66%;
+    height: 200px;
+    width: 200px;
+    text-align-last:left;
+    font-size: 30px;
+}
+
+#contact-me nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+}
